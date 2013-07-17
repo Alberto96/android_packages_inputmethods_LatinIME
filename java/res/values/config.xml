@@ -23,35 +23,35 @@
     <bool name="config_enable_show_settings_key_option">true</bool>
     <bool name="config_default_show_settings_key">false</bool>
     <bool name="config_enable_show_voice_key_option">true</bool>
-    <bool name="config_enable_show_popup_on_keypress_option">true</bool>
-    <bool name="config_enable_bigram_suggestions_option">true</bool>
+    <bool name="config_enable_show_popup_on_keypress_option">false</bool>
+    <bool name="config_enable_bigram_suggestions_option">false</bool>
     <bool name="config_enable_usability_study_mode_option">false</bool>
-    <bool name="config_sliding_key_input_enabled">true</bool>
+    <bool name="config_sliding_key_input_enabled">false</bool>
     <bool name="config_digit_more_keys_enabled">true</bool>
     <!-- Whether or not Popup on key press is enabled by default -->
-    <bool name="config_default_popup_preview">true</bool>
+    <bool name="config_default_popup_preview">false</bool>
     <!-- Default value for bigram suggestion: while showing suggestions for a word should we weigh
          in the previous word? -->
-    <bool name="config_default_bigram_suggestions">true</bool>
+    <bool name="config_default_bigram_suggestions">false</bool>
     <!-- Default value for bigram prediction: after entering a word and a space only, should we look
          at input history to suggest a hopefully helpful suggestions for the next word? -->
     <bool name="config_default_bigram_prediction">false</bool>
     <bool name="config_default_sound_enabled">false</bool>
-    <bool name="config_default_vibration_enabled">true</bool>
+    <bool name="config_default_vibration_enabled">false</bool>
     <bool name="config_auto_correction_spacebar_led_enabled">false</bool>
     <!-- Showing mini keyboard, just above the touched point if true, aligned to the key if false -->
     <bool name="config_show_mini_keyboard_at_touched_point">false</bool>
     <!-- The language is never displayed if == 0, always displayed if < 0 -->
-    <integer name="config_delay_before_fadeout_language_on_spacebar">1200</integer>
+    <integer name="config_delay_before_fadeout_language_on_spacebar">0</integer>
     <integer name="config_delay_update_suggestions">100</integer>
     <integer name="config_delay_update_old_suggestions">300</integer>
     <integer name="config_delay_update_shift_state">100</integer>
-    <integer name="config_duration_of_fadeout_language_on_spacebar">50</integer>
+    <integer name="config_duration_of_fadeout_language_on_spacebar">0</integer>
     <integer name="config_final_fadeout_percentage_of_language_on_spacebar">50</integer>
     <integer name="config_delay_before_preview">0</integer>
     <integer name="config_delay_after_preview">70</integer>
     <integer name="config_mini_keyboard_fadein_anim_time">0</integer>
-    <integer name="config_mini_keyboard_fadeout_anim_time">100</integer>
+    <integer name="config_mini_keyboard_fadeout_anim_time">0</integer>
     <integer name="config_delay_before_key_repeat_start">400</integer>
     <integer name="config_key_repeat_interval">50</integer>
     <integer name="config_keyboard_grid_width">32</integer>
